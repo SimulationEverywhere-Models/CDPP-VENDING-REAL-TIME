@@ -1,0 +1,15 @@
+# To run the simulation using Virtual-time
+# Model file: vmachine.ma
+# Event file: vmachine_1.ev
+# Output file: vmachine_1.out
+# Script:
+
+./cd++ -evmachine_1.ev -mvmachine.ma -ovmachine_1.out
+
+# To run the simulation using Virtual-time
+# Model file: vmachine.ma
+# Event file: vmachine_2.ev
+# Output file: vmachine_2.out
+# Script:
+
+./cd++ -evmachine_2.ev -mvmachine.ma -ovmachine_2.out
